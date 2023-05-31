@@ -4,7 +4,7 @@
 
 ## 说明
 
-文件夹内规则适用于 Surge 、Quantumult X 和 Loon 等代理软件
+文件夹内规则适用于 **Surge** 、**Quantumult X** (需打开资源解析器) 和 **Loon** 等代理软件
 
 ### 关于 IPv6
 
@@ -77,3 +77,15 @@ Streaming 策略组最初的设想使用方式是独立出来给有观看流媒�
 - 哔哩哔哩（僅限港澳台地區）；
 - 愛奇藝海外站；
 - 芒果TV国际；
+
+### 从 Surge 迁移到 Quantumult X 可能遇上的问题
+
+注意，Quantumult X 并没有官方文档，所以以下内容可能有误。
+
+规则类型优先级，在 Quantumult X 中并不是完全按顺序匹配，各类型的优先级应该为： host > host-suffix > host-keyword > user-agnet > geoip & ip-cidr。
+
+> 举个例子：如某远程分流文件中含有 `host-suffix, instagram.com, proxy` 时，添加 `host-keyword, instagram, direct` 并不能改变 instagram.com 的策略；
+
+顺序上来说 Quantumult X 将本地规则放在规则列表的顶部，所以当本地规则存在 `geoip,cn,direct` 时，远程分流文件中对于 CN 地区的 IP 规则并不会生效，解决办法是将相关规则也写在本地或将 `geoip,cn,direct` 放到远程分流文件中。
+
+另外，在 Surge 中如 `DOMAIN,1.1.1.1` 这样的规则可以用于匹配目标主机为 IP 地址 1.1.1.1 的连接，但并不适用于 Quantumult X。
