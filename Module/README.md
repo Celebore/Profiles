@@ -2,6 +2,6 @@
 
 该文件夹中模块用于 Surge 客户端，不适用于 Loon 和 Quantumult X 。
 
-解锁了「模块」功能的用户可以使用 General.sgmodule 后可移除 [URL Rewrite] 及 [MITM] 的「hostname = www.google.cn , api.abema.io 」部分
+用户添加 General.sgmodule 模块后可移除 [URL Rewrite] 及 [MITM] 的「hostname = www.google.cn , api.abema.io」部分
 
 建议使用 General.sgmodule，其他 .sgmodule 按需加入。
