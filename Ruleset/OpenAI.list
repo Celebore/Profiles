@@ -1,9 +1,11 @@
 # > OpenAI
-# UPDATED: 2023-04-07 14:52:57
+# UPDATED: 2023-05-28
+# TOTAL: 8
 DOMAIN,cdn.auth0.com
 DOMAIN,challenges.cloudflare.com
 DOMAIN,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-KEYWORD,openai
