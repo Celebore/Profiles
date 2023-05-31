@@ -1,4 +1,5 @@
-# Unbreak
+# UPDATED: 2023-06-01
+# TOTAL: 7
 # > General
 DOMAIN,app.adjust.com
 DOMAIN,app.appsflyer.com
@@ -36,3 +37,7 @@ DOMAIN,analytics.strava.com
 # > Umeng
 DOMAIN,msg.umeng.com
 DOMAIN,msg.umengcloud.com
+# My Settings
+# > Oraclecloud
+DOMAIN-SUFFIX,oracle.com,DIRECT
+DOMAIN-SUFFIX,oraclecloud.com,DIRECT
