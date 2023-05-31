@@ -2,9 +2,9 @@
 
 ## 说明
 
-这是一个 Surge、Quantumult X 和 Loon 配置文件备份。
+这是一个 **Surge**、**Quantumult X** 和 **Loon** 配置文件备份。
 
-1. [规则] **Ruleset** - 规则分流三款客户端可以通用（QX需要打开解析器）
+1. [规则] **Ruleset** - 规则分流三款客户端可以通用（QX需打开资源解析器）
 2. [模块] **Module** - 模块功能专用于 Surge 客户端
 3. [插件] **Plugin** - 插件功能专用于 Loon 客户端
 4. [重写] **Rewrite** - 重写文件专用于 Quantumult X 客户端
