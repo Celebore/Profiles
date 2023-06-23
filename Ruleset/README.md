@@ -41,7 +41,7 @@
 使用排序要求如下：
 
 1. [必须] Unbreak.list - 用于修正后续规则行为
-2. [可选] Advertising.list - 广告
+2. [可选] Advertising.list - 广告（macOS 不建议开启）
 3. [可选] Privacy.list - 隐私（行为分析、隐私追踪）
 4. [可选] Hijacking.list - 劫持（运营商、恶意网址）
 5. [必须] Streaming.list - 流媒体服务
@@ -68,6 +68,7 @@ Streaming 策略组最初的设想使用方式是独立出来给有观看流媒�
 2. tv 位于 `Extra` 目录下的 `Apple` 目录内；
 3. `Video` 下的 `bilibili.list` 和 `iQiyi.list` 与国内版不是一个 App；
 4. 当不需要「Streaming 策略组」时，`Streaming.list` 策略应该调整为 PROXY 而不是移除；
+5. 如需细化流媒体如「Youtube.list」等，需要加在「Streaming.list」之前。
 
 #### StreamingSE
 
@@ -77,6 +78,10 @@ Streaming 策略组最初的设想使用方式是独立出来给有观看流媒�
 - 哔哩哔哩（僅限港澳台地區）；
 - 愛奇藝海外站；
 - 芒果TV国际；
+
+#### 应用类
+
+如需细分应用类的如「Telegram.list、Google.list、PayPal.list」需要加在「Global.list」之前。
 
 ### 从 Surge 迁移到 Quantumult X 可能遇上的问题
 
@@ -89,3 +94,26 @@ Streaming 策略组最初的设想使用方式是独立出来给有观看流媒�
 顺序上来说 Quantumult X 将本地规则放在规则列表的顶部，所以当本地规则存在 `geoip,cn,direct` 时，远程分流文件中对于 CN 地区的 IP 规则并不会生效，解决办法是将相关规则也写在本地或将 `geoip,cn,direct` 放到远程分流文件中。
 
 另外，在 Surge 中如 `DOMAIN,1.1.1.1` 这样的规则可以用于匹配目标主机为 IP 地址 1.1.1.1 的连接，但并不适用于 Quantumult X。
+
+### 关于去广告
+
+#### 为什么有些应用还是无法使用？
+
+1. 开启「HTTPS 解密(MitM)」功能
+2. 安装证书
+3. 到系统「设置 > 通用 > 关于本机」中底部的「证书信任设置」中信任所安装的证书！
+
+#### 为什么某应用还是有广告
+
+** 1.缓存 **
+有些应用会将广告缓存，如果在使用规则前应用就已经缓存了广告，所以你需要：
+- 应用内设置里清除缓存。
+- 但有的应用并不会清除广告的缓存，所以需要将应用删除重装。
+
+** 2.功能 **
+广告阻止不仅于使用 [Rule] 规则，有的广告需要 [URL Rewrite] 和 [MITM]，这就意味着：
+- Surge 虽然支持 [URL Rewrite] 和 [MITM]，但无法处理 TUN 的广告。
+- Quantumult 虽然支持 [URL Rewrite] 和 [MITM]，但需要在「更多 > 附加功能」中开启「激进阻止」以更全面的支持（X 版本默认带此功能）否则同 Surge 效果一样，但 Quantumult 对于 IP 不会进行 MitM，所以有的广告不能如 Surge 一般去除。
+
+** 3.规则不是万能的 **
+不是所有广告都能简单的依靠规则阻止。
