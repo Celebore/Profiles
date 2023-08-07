@@ -1,5 +1,5 @@
 # NAME: Freedom
-# UPDATED: 2023-06-01
+# UPDATED: 2023-08-07
 # > Design
 DOMAIN-SUFFIX,500px.com
 DOMAIN-SUFFIX,behance.net
@@ -21,11 +21,16 @@ DOMAIN-SUFFIX,cnnlabs.com
 DOMAIN-SUFFIX,dan.com
 DOMAIN-SUFFIX,dayone.me
 DOMAIN-SUFFIX,dayoneapp.com
-DOMAIN-SUFFIX,Dynadot.com
+DOMAIN-SUFFIX,dw.com
+DOMAIN-SUFFIX,dynadot.com
 DOMAIN-SUFFIX,ebay.com
 DOMAIN-SUFFIX,evernote.com
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,infini-cloud.net
+DOMAIN-SUFFIX,pianyuan.org
+DOMAIN-SUFFIX,voachinese.com
+DOMAIN-SUFFIX,voanews.com
+DOMAIN-SUFFIX,x.com
 # > Duolingo
 DOMAIN-SUFFIX,duolingo.com
 DOMAIN-SUFFIX,duolingo.cn
@@ -40,7 +45,6 @@ DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,notion.com
 DOMAIN-SUFFIX,notion.new
 DOMAIN-SUFFIX,notion.site
-DOMAIN-SUFFIX,pianyuan.org
 # > ProtonMail
 DOMAIN-SUFFIX,pm.me
 DOMAIN-SUFFIX,proton.me
