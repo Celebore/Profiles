@@ -1,5 +1,5 @@
 # NAME: Unbreak
-# UPDATED: 2023-08-07
+# UPDATED: 2023-08-08
 # > General
 DOMAIN,app.adjust.com
 DOMAIN,app.appsflyer.com
@@ -7,26 +7,6 @@ DOMAIN,bdtj.tagtic.cn
 # > Alibaba
 DOMAIN,log.mmstat.com
 DOMAIN,sycm.mmstat.com
-# > Google
-DOMAIN-SUFFIX,blog.google // Google Blog
-DOMAIN-SUFFIX,googletraveladservices.com // Google Flights
-DOMAIN,clientservices.googleapis.com
-DOMAIN,update.googleapis.com
-DOMAIN,dl.google.com
-DOMAIN,dl.l.google.com
-DOMAIN,update.googleapis.com
-# >> Firebase Cloud Messaging
-DOMAIN,mtalk.google.com
-DOMAIN,alt1-mtalk.google.com
-DOMAIN,alt2-mtalk.google.com
-DOMAIN,alt3-mtalk.google.com
-DOMAIN,alt4-mtalk.google.com
-DOMAIN,alt5-mtalk.google.com
-DOMAIN,alt6-mtalk.google.com
-DOMAIN,alt7-mtalk.google.com
-DOMAIN,alt8-mtalk.google.com
-# >> Paramount+
-# DOMAIN,pubads.g.doubleclick.net
 # > Tencent
 DOMAIN-SUFFIX,cdn-go.cn
 DOMAIN-SUFFIX,qlogo.cn
@@ -37,7 +17,25 @@ DOMAIN,analytics.strava.com
 # > Umeng
 DOMAIN,msg.umeng.com
 DOMAIN,msg.umengcloud.com
-# My Settings
+# ----(Google)----
+DOMAIN-SUFFIX,blog.google // Google Blog
+DOMAIN-SUFFIX,googletraveladservices.com // Google Flights
+DOMAIN,clientservices.googleapis.com
+DOMAIN,update.googleapis.com
+DOMAIN,dl.google.com
+DOMAIN,dl.l.google.com
+DOMAIN,update.googleapis.com
+# > Firebase Cloud Messaging
+DOMAIN,mtalk.google.com
+DOMAIN,alt1-mtalk.google.com
+DOMAIN,alt2-mtalk.google.com
+DOMAIN,alt3-mtalk.google.com
+DOMAIN,alt4-mtalk.google.com
+DOMAIN,alt5-mtalk.google.com
+DOMAIN,alt6-mtalk.google.com
+DOMAIN,alt7-mtalk.google.com
+DOMAIN,alt8-mtalk.google.com
+# ----(My Settings)----
 # > Oraclecloud
 DOMAIN-SUFFIX,oracle.com,DIRECT
 DOMAIN-SUFFIX,oraclecloud.com,DIRECT
