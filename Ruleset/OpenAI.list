@@ -1,11 +1,15 @@
-# > OpenAI
-# UPDATED: 2023-05-28
-# TOTAL: 8
-DOMAIN,cdn.auth0.com
-DOMAIN,challenges.cloudflare.com
-DOMAIN,openaiapi-site.azureedge.net
+# NAME: OpenAI
+# UPDATED: 2023-08-08
 DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,stripe.com
 DOMAIN-KEYWORD,openai
