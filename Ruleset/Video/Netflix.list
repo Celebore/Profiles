@@ -1,5 +1,9 @@
-# > Netflix
+# NAME: Netflix
+# UPDATED: 2023-08-08
 USER-AGENT,Argo*
+DOMAIN-SUFFIX,fast.com
+DOMAIN-SUFFIX,flxvpn.net
+DOMAIN-SUFFIX,netflix.ca
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.net
 DOMAIN-SUFFIX,nflxext.com
