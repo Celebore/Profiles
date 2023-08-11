@@ -1,4 +1,7 @@
-# > Skype
+# NAME: Skype
+# UPDATED: 2023-08-08
 DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,skype.net
 DOMAIN-SUFFIX,messenger.live.com
 DOMAIN-SUFFIX,skypeassets.com
+DOMAIN-SUFFIX,skypeassets.net
