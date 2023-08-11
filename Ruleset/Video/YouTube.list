@@ -1,7 +1,11 @@
-# > YouTube
+# NAME: YouTube
+# UPDATED: 2023-08-08
 USER-AGENT,com.google.ios.youtube*
 USER-AGENT,YouTube*
+DOMAIN-SUFFIX,ggpht.cn
+DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,video.google.com
 DOMAIN-SUFFIX,withyoutube.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,youtube.com
@@ -11,5 +15,5 @@ DOMAIN-SUFFIX,youtubekids.com
 DOMAIN-SUFFIX,youtube-nocookie.com
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
+DOMAIN-KEYWORD,youtube
 DOMAIN,youtubei.googleapis.com
-DOMAIN,yt3.ggpht.com
