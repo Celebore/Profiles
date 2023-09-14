@@ -1,5 +1,5 @@
 # NAME: Global
-# UPDATED: 2023-08-18
+# UPDATED: 2023-09-09
 # > Other
 DOMAIN-SUFFIX,9cache.com
 DOMAIN-SUFFIX,9gag.com
@@ -524,3 +524,4 @@ DOMAIN-SUFFIX,framer.com
 DOMAIN-SUFFIX,midjourney.com
 DOMAIN-SUFFIX,pixabay.com
 DOMAIN-SUFFIX,unsplash.com
+DOMAIN,firefly.adobe.com
