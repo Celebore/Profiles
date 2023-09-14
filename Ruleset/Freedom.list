@@ -1,5 +1,5 @@
 # NAME: Freedom
-# UPDATED: 2023-09-09
+# UPDATED: 2023-09-15
 # > Other
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,hostloc.com
@@ -10,9 +10,14 @@ DOMAIN,assets.adobedtm.com
 DOMAIN,cc-api-behance.adobe.io
 DOMAIN,cc-api-data.adobe.io
 DOMAIN,clio-assets.adobe.com
+DOMAIN,firefly.adobe.com
+DOMAIN,firefly.adobe.io
+DOMAIN,firefly-md.adobe.io
 DOMAIN,images-tv.adobe.com
 DOMAIN,ims-na1.adobelogin.com
 DOMAIN,p13n.adobe.io
+DOMAIN,platform-cs.adobe.io
+DOMAIN,platform-cs-va6.adobe.io
 DOMAIN,video.tv.adobe.com
 # > Video
 DOMAIN-SUFFIX,91porn.com
