@@ -48,7 +48,8 @@
 6. [可选] StreamingSE.list - （大陆面向国际的）流媒体服务
 7. [必须] Global.list - 国际网络分流
 8. [可选] Apple.list - 苹果服务分流
-9. [必须] China.list - 国内网络分流
+9. [可选] Adobe.list - 跳过 Adobe 验证
+10. [必须] China.list - 国内网络分流
 
 #### Unbreak
 
