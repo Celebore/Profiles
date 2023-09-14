@@ -1,10 +1,20 @@
 # NAME: Freedom
-# UPDATED: 2023-08-08
+# UPDATED: 2023-09-09
 # > Other
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,hostloc.com
 DOMAIN-SUFFIX,pianyuan.org
-# > Porn
+# > Adobe
+DOMAIN,aps-web.adobe.io
+DOMAIN,assets.adobedtm.com
+DOMAIN,cc-api-behance.adobe.io
+DOMAIN,cc-api-data.adobe.io
+DOMAIN,clio-assets.adobe.com
+DOMAIN,images-tv.adobe.com
+DOMAIN,ims-na1.adobelogin.com
+DOMAIN,p13n.adobe.io
+DOMAIN,video.tv.adobe.com
+# > Video
 DOMAIN-SUFFIX,91porn.com
 DOMAIN-SUFFIX,jable.tv
 DOMAIN-SUFFIX,javbus.com
