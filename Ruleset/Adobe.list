@@ -1,7 +1,6 @@
 # NAME: Adobe
 # UPDATED: 2023-08-08
 DOMAIN,adobeereg.com
-DOMAIN,cc-ext-prod-pkgs.s3.amazonaws.com
 DOMAIN,crl.versign.net
 DOMAIN,ood.opsource.net
 DOMAIN,practivate.adobe
