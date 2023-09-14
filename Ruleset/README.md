@@ -66,7 +66,7 @@ Streaming 策略组最初的设想使用方式是独立出来给有观看流媒�
 一些需要注意的事项：
 
 1. 一些流媒体服务需要「原生（或称「本土」）」的 IP，此类称呼存在争议只需要明白如开通的是港区 Netflix 不是随便找个香港服务器就能够使用的。
-2. tv 位于 `Extra` 目录下的 `Apple` 目录内；
+2. tv 位于 `Apple` 目录内；
 3. `Video` 下的 `bilibili.list` 和 `iQiyi.list` 与国内版不是一个 App；
 4. 当不需要「Streaming 策略组」时，`Streaming.list` 策略应该调整为 PROXY 而不是移除；
 5. 如需细化流媒体如「Youtube.list」等，需要加在「Streaming.list」之前。
