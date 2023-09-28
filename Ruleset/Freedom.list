@@ -5,6 +5,7 @@ DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,hostloc.com
 DOMAIN-SUFFIX,pianyuan.org
 # > Adobe
+DOMAIN,account.adobe.com
 DOMAIN,aps-web.adobe.io
 DOMAIN,assets.adobedtm.com
 DOMAIN,cc-api-behance.adobe.io
