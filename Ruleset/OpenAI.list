@@ -1,5 +1,5 @@
 # NAME: OpenAI
-# UPDATED: 2023-08-08
+# UPDATED: 2024-01-01
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
@@ -13,3 +13,5 @@ DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-KEYWORD,openai
+# > Google
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
