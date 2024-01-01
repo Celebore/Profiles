@@ -39,3 +39,5 @@ DOMAIN,alt8-mtalk.google.com
 # > Oraclecloud
 DOMAIN-SUFFIX,oracle.com,DIRECT
 DOMAIN-SUFFIX,oraclecloud.com,DIRECT
+# > ultramobile
+DOMAIN-SUFFIX,ultramobile.com,DIRECT
