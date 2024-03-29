@@ -73,7 +73,7 @@
 ^https?:\/\/(www.)?yuanchengxiezuo\.com\/ https://www.teamviewer.com/ 302
 ^https?:\/\/(www.)?zbrushcn\.com\/ https://pixologic.com/ 302
 # 阿里云盘重定向
-^https?:\/\/(www.)?alipan\.com\/ https://aliyundrive.com/ 302
+^https?:\/\/(www.)?alipan\.com\/ https://www.aliyundrive.com/ 302
 
 # AbeamTV - api.*.abema-tv.com
 ^https?:\/\/api\.[\w-]+\.abema-tv\.com\/v\d\/ip\/check - reject
