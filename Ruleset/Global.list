@@ -1,5 +1,5 @@
 # NAME: Global
-# UPDATED: 2023-09-09
+# UPDATED: 2024-04-28
 # > General
 DOMAIN-SUFFIX,9cache.com
 DOMAIN-SUFFIX,9gag.com
@@ -408,6 +408,7 @@ DOMAIN-SUFFIX,pm.me
 DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,protonmail.ch
 DOMAIN-SUFFIX,protonmail.com
+DOMAIN-SUFFIX,protonstatus.com
 # > Reddit
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,reddit.com
@@ -519,7 +520,6 @@ DOMAIN,apple.comscoreresearch.com
 DOMAIN-SUFFIX,500px.com
 DOMAIN-SUFFIX,behance.net
 DOMAIN-SUFFIX,dribbble.com
-DOMAIN-SUFFIX,flickr.com
 DOMAIN-SUFFIX,framer.com
 DOMAIN-SUFFIX,midjourney.com
 DOMAIN-SUFFIX,pixabay.com
