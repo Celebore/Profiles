@@ -1,5 +1,5 @@
 # NAME: Global
-# UPDATED: 2024-05-05
+# UPDATED: 2024-05-21
 # > General
 DOMAIN-SUFFIX,9cache.com
 DOMAIN-SUFFIX,9gag.com
@@ -400,6 +400,9 @@ DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,skype.net
+DOMAIN-SUFFIX,skypeassets.com
+DOMAIN-SUFFIX,skypeassets.net
 DOMAIN-SUFFIX,streaming.mediaservices.windows.net
 DOMAIN,assets1.xboxlive.com
 DOMAIN,assets2.xboxlive.com
