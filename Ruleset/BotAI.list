@@ -1,5 +1,6 @@
 # NAME: BotAI
 # UPDATED: 2024-05-21
+# > ChatGPT
 DOMAIN,ai.cn
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,auth0.com
@@ -19,7 +20,7 @@ DOMAIN,openaiapi-site.azureedge.net
 DOMAIN,o33249.ingest.sentry.io // Tracing
 DOMAIN-SUFFIX,oaistatic.com // Stats
 DOMAIN,api.statsig.com // Stats
-# > Google
+# > Google Gemini
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,makersuite.google.com
