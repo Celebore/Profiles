@@ -1,5 +1,5 @@
-# NAME: OpenAI
-# UPDATED: 2024-05-15
+# NAME: BotAI
+# UPDATED: 2024-05-21
 DOMAIN,ai.cn
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,auth0.com
@@ -20,4 +20,16 @@ DOMAIN,o33249.ingest.sentry.io // Tracing
 DOMAIN-SUFFIX,oaistatic.com // Stats
 DOMAIN,api.statsig.com // Stats
 # > Google
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN,ai.google.dev
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,makersuite.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,developerprofiles
+DOMAIN-KEYWORD,generativelanguage
