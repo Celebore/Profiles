@@ -1,5 +1,5 @@
 # NAME: Unbreak
-# UPDATED: 2023-08-08
+# UPDATED: 2024-05-29
 # > General
 DOMAIN,app.adjust.com
 DOMAIN,app.appsflyer.com
@@ -35,9 +35,11 @@ DOMAIN,alt5-mtalk.google.com
 DOMAIN,alt6-mtalk.google.com
 DOMAIN,alt7-mtalk.google.com
 DOMAIN,alt8-mtalk.google.com
-# ----(My Settings)----
+# ----(Other Settings)----
 # > Oraclecloud
 DOMAIN-SUFFIX,oracle.com,DIRECT
 DOMAIN-SUFFIX,oraclecloud.com,DIRECT
 # > ultramobile
 DOMAIN-SUFFIX,ultramobile.com,DIRECT
+# > GiffGaff
+DOMAIN-SUFFIX,giffgaff.com,DIRECT
