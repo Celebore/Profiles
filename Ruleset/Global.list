@@ -1,5 +1,5 @@
 # NAME: Global
-# UPDATED: 2024-05-21
+# UPDATED: 2024-05-30
 # > General
 DOMAIN-SUFFIX,9cache.com
 DOMAIN-SUFFIX,9gag.com
@@ -538,6 +538,7 @@ DOMAIN,disk.yandex.com
 DOMAIN-SUFFIX,appsto.re // Apple URL Shortener
 DOMAIN-SUFFIX,smoot.apple.com // Spotlight
 DOMAIN,amp-api.podcasts.apple.com // Podcasts
+DOMAIN,bookkeeper.itunes.apple.com // Podcasts
 DOMAIN,beta.music.apple.com // Apple Music Web
 DOMAIN,books.itunes.apple.com // iBooks Store download
 DOMAIN,lookup-api.apple.com // Look Up
