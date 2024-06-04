@@ -12,7 +12,7 @@
 **Special thanks to**
 
 - [DivineEngine/Profiles](https://github.com/DivineEngine/Profiles/tree/master)
-- [ConnersHua](https://github.com/ConnersHua)
+- [ConnersHua/RuleGo](https://github.com/ConnersHua/RuleGo/tree/master)
 - [scomper / Surge](https://github.com/scomper/Surge)
 - [lhie1 / Rules](https://github.com/lhie1/Rules)
 - [KOP-XIAO / QuantumultX](https://github.com/KOP-XIAO/QuantumultX)
