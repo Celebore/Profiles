@@ -1,27 +1,33 @@
 # NAME: BotAI
-# UPDATED: 2024-05-21
+# UPDATED: 2024-06-05
 # > ChatGPT
 DOMAIN,ai.cn
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-KEYWORD,openai
+DOMAIN,api.statsig.com
+DOMAIN,api-iam.intercom.io
 DOMAIN,cdn.auth0.com
-DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,chatgpt.livekit.cloud
 DOMAIN,o33249.ingest.sentry.io // Tracing
-DOMAIN-SUFFIX,oaistatic.com // Stats
-DOMAIN,api.statsig.com // Stats
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,sfo3.turn.livekit.cloud
 # > Google Gemini
 DOMAIN,ai.google.dev
+DOMAIN,aistudio.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,makersuite.google.com
 DOMAIN-SUFFIX,bard.google.com
@@ -34,3 +40,7 @@ DOMAIN-SUFFIX,apis.google.com
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
+# > Microsoft Copilot
+DOMAIN,copilot.microsoft.com
+DOMAIN,sydney.bing.com
+DOMAIN,www.bing.com
