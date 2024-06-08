@@ -1,5 +1,5 @@
 # NAME: Global
-# UPDATED: 2024-06-02
+# UPDATED: 2024-06-08
 # > General
 DOMAIN-SUFFIX,9cache.com
 DOMAIN-SUFFIX,9gag.com
@@ -384,6 +384,7 @@ DOMAIN-SUFFIX,oculus.com
 DOMAIN-SUFFIX,oculuscdn.com
 DOMAIN-SUFFIX,readyatdawn.com
 DOMAIN-SUFFIX,rocksdb.org
+DOMAIN-SUFFIX,threads.net
 DOMAIN-SUFFIX,whatsapp.biz
 DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,whatsapp.net
