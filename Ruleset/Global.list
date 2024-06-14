@@ -1,5 +1,5 @@
 # NAME: Global
-# UPDATED: 2024-06-08
+# UPDATED: 2024-06-14
 # > General
 DOMAIN-SUFFIX,9cache.com
 DOMAIN-SUFFIX,9gag.com
@@ -556,6 +556,7 @@ DOMAIN,amp-api.podcasts.apple.com // Podcasts
 DOMAIN,bookkeeper.itunes.apple.com // Podcasts
 DOMAIN,beta.music.apple.com // Apple Music Web
 DOMAIN,books.itunes.apple.com // iBooks Store download
+DOMAIN,identity.ess.apple.com // AppleID
 DOMAIN,lookup-api.apple.com // Look Up
 DOMAIN,radio.itunes.apple.com // Apple Music Radio
 # > Web Preview
