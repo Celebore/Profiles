@@ -1,5 +1,5 @@
 # NAME: Global
-# UPDATED: 2024-06-14
+# UPDATED: 2024-09-02
 # > General
 DOMAIN-SUFFIX,9cache.com
 DOMAIN-SUFFIX,9gag.com
@@ -111,6 +111,7 @@ DOMAIN-SUFFIX,neowin.net
 DOMAIN-SUFFIX,newstatesman.com
 DOMAIN-SUFFIX,newsweek.com
 DOMAIN-SUFFIX,newyorker.com
+DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,now.com
 DOMAIN-SUFFIX,ok.ru
 DOMAIN-SUFFIX,omny.fm
