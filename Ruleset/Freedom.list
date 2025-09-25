@@ -2,6 +2,8 @@
 # UPDATED: 2024-04-29
 # > General
 DOMAIN-SUFFIX,imgur.com
+DOMAIN-SUFFIX,500px.com
+DOMAIN-SUFFIX,500px.org
 DOMAIN-SUFFIX,hostloc.com
 DOMAIN-SUFFIX,pianyuan.org
 # > Adobe
