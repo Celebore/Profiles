@@ -41,3 +41,5 @@ DOMAIN-SUFFIX,oracle.com,DIRECT
 DOMAIN-SUFFIX,oraclecloud.com,DIRECT
 # > GiffGaff
 DOMAIN-SUFFIX,giffgaff.com,DIRECT
+# > Wise
+DOMAIN-SUFFIX,wise.com,DIRECT
